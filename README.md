@@ -1,2 +1,2 @@
-# jeffyu880.github.io
-My personal website
+# MyWebsite
+My personal website created with HTML and CSS
