@@ -12,18 +12,6 @@ html, body {
     padding: 0;
 }
 
-.page-container
-{
-    position: relative;
-    min-height: 100vh;
-}
-
-.content-wrap
-{
-    padding-bottom: 2.5rem;
-}
-
-
 /*********************FOOTER*************************/
 .main-header
 {
@@ -100,6 +88,7 @@ nav .nav
 /*********************FOOTER*************************/
 .main-footer
 {
+    flex-shrink: 0;
     background-color: lightgreen;
     color: lightgray;
     padding: 1em;
@@ -118,6 +107,7 @@ nav .nav
 {
     display: flex;
     align-items: center;
+    background-color: lightgreen;
 }
 
 .main-footer-container ul
