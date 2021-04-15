@@ -12,11 +12,11 @@ html, body {
     padding: 0;
 }
 
-/*********************FOOTER*************************/
+/*********************HEADER*************************/
 .main-header
 {
     background-color: rgba(0,0,0, 0.5);
-    background-image: url("Images/Forest.jpeg");
+    background-image: url("ExternalFiles/Forest.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -91,7 +91,7 @@ nav .nav
     flex-shrink: 0;
     background-color: lightgreen;
     color: lightgray;
-    padding: 1em;
+    padding: .25em 0;
     
 }
 
@@ -100,14 +100,13 @@ nav .nav
     position:absolute;
     bottom:0;
     width: 100%;
-    height: 2.5rem;
+    height: 5rem;
 }
 
 .main-footer-container
 {
     display: flex;
     align-items: center;
-    background-color: lightgreen;
 }
 
 .main-footer-container ul
@@ -132,3 +131,18 @@ nav .nav
     text-align: left;
 }
 
+/********************************CSS FILE*******************************/
+.project-images
+{
+    float: center;
+    width: 20;
+    height: 50;
+}
+
+.project-content-section-container
+{
+    /*margin: 1em;*/
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
